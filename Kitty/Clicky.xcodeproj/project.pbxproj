@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0088AC3BC43248A6704DE776 /* reply.png in Resources */ = {isa = PBXBuildFile; fileRef = A21C4E57C36068A46EEFEAD1 /* reply.png */; };
+		093AADEBFD72F337E6674622 /* ClickyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C9143DC70BDAF17E048D4 /* ClickyApp.swift */; };
+		09C160582D87BBC84BD73FEA /* mixkit-cartoon-kitty-begging-meow-92.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2B694A5A30F184EF4A8E5DF /* mixkit-cartoon-kitty-begging-meow-92.wav */; };
+		209BF6675916380A4C8B5EC8 /* OllamaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF706D0A3BA002FF55AA54 /* OllamaClient.swift */; };
+		268A12E11CCAEB1B7C10F47C /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = E82A13486F4EB358C98EB483 /* Resources */; };
+		292BD57BD32033E3EAA171ED /* mixkit-little-cat-pain-meow-87.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95E04332B3A65DCF2E48BD38 /* mixkit-little-cat-pain-meow-87.wav */; };
+		3BBC83663BD9CF509140A2F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B3531C9D0C78F90B3A983 /* AppDelegate.swift */; };
+		4AEAC24137E5EA62081C7B89 /* VoiceCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DF91978EC3AFA54520377 /* VoiceCapture.swift */; };
+		52947C3EDB7CA7AFF4DFD1D1 /* CatAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4DA7FB0BB40381F1EE4765 /* CatAssets.swift */; };
+		5DC94634724AA923C70F5843 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BCCB3A0F17C14667BE7942 /* Speaker.swift */; };
+		65367AA283C05B716EE5872B /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60DF619FC089FF6AB722A0A0 /* README.txt */; };
+		9ACCFCD2E2569E15EB6FFFC7 /* cat_idle.png in Resources */ = {isa = PBXBuildFile; fileRef = 462CCD64F85B1BE57883AA84 /* cat_idle.png */; };
+		A3688324FC19D3F1C8DE634C /* thinking&listeining.png in Resources */ = {isa = PBXBuildFile; fileRef = 762EF6CE5989357C8F13685A /* thinking&listeining.png */; };
+		B10233E2966BB688CB8E276F /* mixkit-angry-cartoon-kitty-meow-94.wav in Resources */ = {isa = PBXBuildFile; fileRef = F9CF36BE47773876EFC73FFE /* mixkit-angry-cartoon-kitty-meow-94.wav */; };
+		CB301A3107D3D7CAA43CD13C /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489E8104B14EC2D6CE46096B /* HUDView.swift */; };
+		CD90326D36A71719D0FE5DDA /* FloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F790D9B87A2F3E18AD18237 /* FloatingPanel.swift */; };
+		DE8A3A381602F7446549CB4D /* HotKeyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9FDC94825AEAFB0272A4B /* HotKeyMonitor.swift */; };
+		EC9A08C6DDD12FBBA5DADFE9 /* TextInputWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652C8520E025458EE448F4A /* TextInputWindow.swift */; };
+		EF47B88FF9E0EFC77C66CFEE /* CursorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E0730B39A2FBCE15E2421 /* CursorTracker.swift */; };
+		F3D3547FABB01C002FCC04FE /* ConversationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1458169B58F3E13361CA5 /* ConversationState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E8DF91978EC3AFA54520377 /* VoiceCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCapture.swift; sourceTree = "<group>"; };
+		25E9FDC94825AEAFB0272A4B /* HotKeyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyMonitor.swift; sourceTree = "<group>"; };
+		35BCCB3A0F17C14667BE7942 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		462CCD64F85B1BE57883AA84 /* cat_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_idle.png; sourceTree = "<group>"; };
+		463E0730B39A2FBCE15E2421 /* CursorTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorTracker.swift; sourceTree = "<group>"; };
+		489E8104B14EC2D6CE46096B /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		60DF619FC089FF6AB722A0A0 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		6F790D9B87A2F3E18AD18237 /* FloatingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanel.swift; sourceTree = "<group>"; };
+		762EF6CE5989357C8F13685A /* thinking&listeining.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thinking&listeining.png"; sourceTree = "<group>"; };
+		7BC1458169B58F3E13361CA5 /* ConversationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationState.swift; sourceTree = "<group>"; };
+		912B3531C9D0C78F90B3A983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95E04332B3A65DCF2E48BD38 /* mixkit-little-cat-pain-meow-87.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-little-cat-pain-meow-87.wav"; sourceTree = "<group>"; };
+		A21C4E57C36068A46EEFEAD1 /* reply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reply.png; sourceTree = "<group>"; };
+		B2B694A5A30F184EF4A8E5DF /* mixkit-cartoon-kitty-begging-meow-92.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-kitty-begging-meow-92.wav"; sourceTree = "<group>"; };
+		B69B524F8CF08E8878CC95E5 /* Clicky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clicky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FF706D0A3BA002FF55AA54 /* OllamaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaClient.swift; sourceTree = "<group>"; };
+		D77C9143DC70BDAF17E048D4 /* ClickyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickyApp.swift; sourceTree = "<group>"; };
+		E652C8520E025458EE448F4A /* TextInputWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputWindow.swift; sourceTree = "<group>"; };
+		E82A13486F4EB358C98EB483 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = Sources/Clicky/Resources; sourceTree = SOURCE_ROOT; };
+		EA4DA7FB0BB40381F1EE4765 /* CatAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAssets.swift; sourceTree = "<group>"; };
+		F9CF36BE47773876EFC73FFE /* mixkit-angry-cartoon-kitty-meow-94.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-angry-cartoon-kitty-meow-94.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		21F167999AB141FD8027FD66 /* Clicky */ = {
+			isa = PBXGroup;
+			children = (
+				912B3531C9D0C78F90B3A983 /* AppDelegate.swift */,
+				EA4DA7FB0BB40381F1EE4765 /* CatAssets.swift */,
+				D77C9143DC70BDAF17E048D4 /* ClickyApp.swift */,
+				7BC1458169B58F3E13361CA5 /* ConversationState.swift */,
+				463E0730B39A2FBCE15E2421 /* CursorTracker.swift */,
+				6F790D9B87A2F3E18AD18237 /* FloatingPanel.swift */,
+				25E9FDC94825AEAFB0272A4B /* HotKeyMonitor.swift */,
+				489E8104B14EC2D6CE46096B /* HUDView.swift */,
+				C6FF706D0A3BA002FF55AA54 /* OllamaClient.swift */,
+				E82A13486F4EB358C98EB483 /* Resources */,
+				35BCCB3A0F17C14667BE7942 /* Speaker.swift */,
+				E652C8520E025458EE448F4A /* TextInputWindow.swift */,
+				0E8DF91978EC3AFA54520377 /* VoiceCapture.swift */,
+				B9B36D2A1503E0F7F50FBA2C /* Resources */,
+			);
+			path = Clicky;
+			sourceTree = "<group>";
+		};
+		41BEDCCBD43699B36B32E422 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				21F167999AB141FD8027FD66 /* Clicky */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5B7EF2F042F28F2BDF9240E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B69B524F8CF08E8878CC95E5 /* Clicky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B36D2A1503E0F7F50FBA2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				462CCD64F85B1BE57883AA84 /* cat_idle.png */,
+				F9CF36BE47773876EFC73FFE /* mixkit-angry-cartoon-kitty-meow-94.wav */,
+				B2B694A5A30F184EF4A8E5DF /* mixkit-cartoon-kitty-begging-meow-92.wav */,
+				95E04332B3A65DCF2E48BD38 /* mixkit-little-cat-pain-meow-87.wav */,
+				60DF619FC089FF6AB722A0A0 /* README.txt */,
+				A21C4E57C36068A46EEFEAD1 /* reply.png */,
+				762EF6CE5989357C8F13685A /* thinking&listeining.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7D043831202C601A4B5C5D0 = {
+			isa = PBXGroup;
+			children = (
+				41BEDCCBD43699B36B32E422 /* Sources */,
+				5B7EF2F042F28F2BDF9240E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB61B0EFF1FAE85E80B43B4A /* Clicky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87ECBED9C9EF420CD06A72F8 /* Build configuration list for PBXNativeTarget "Clicky" */;
+			buildPhases = (
+				58A4AB1D7054B842FA8FC915 /* Sources */,
+				1F5382DA27887E52D0EB3EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clicky;
+			packageProductDependencies = (
+			);
+			productName = Clicky;
+			productReference = B69B524F8CF08E8878CC95E5 /* Clicky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53142D76FB5B985645CFB72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AB61B0EFF1FAE85E80B43B4A = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8684D96D69B2308224EAE7B2 /* Build configuration list for PBXProject "Clicky" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E7D043831202C601A4B5C5D0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5B7EF2F042F28F2BDF9240E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB61B0EFF1FAE85E80B43B4A /* Clicky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F5382DA27887E52D0EB3EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65367AA283C05B716EE5872B /* README.txt in Resources */,
+				268A12E11CCAEB1B7C10F47C /* Resources in Resources */,
+				9ACCFCD2E2569E15EB6FFFC7 /* cat_idle.png in Resources */,
+				B10233E2966BB688CB8E276F /* mixkit-angry-cartoon-kitty-meow-94.wav in Resources */,
+				09C160582D87BBC84BD73FEA /* mixkit-cartoon-kitty-begging-meow-92.wav in Resources */,
+				292BD57BD32033E3EAA171ED /* mixkit-little-cat-pain-meow-87.wav in Resources */,
+				0088AC3BC43248A6704DE776 /* reply.png in Resources */,
+				A3688324FC19D3F1C8DE634C /* thinking&listeining.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58A4AB1D7054B842FA8FC915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBC83663BD9CF509140A2F3 /* AppDelegate.swift in Sources */,
+				52947C3EDB7CA7AFF4DFD1D1 /* CatAssets.swift in Sources */,
+				093AADEBFD72F337E6674622 /* ClickyApp.swift in Sources */,
+				F3D3547FABB01C002FCC04FE /* ConversationState.swift in Sources */,
+				EF47B88FF9E0EFC77C66CFEE /* CursorTracker.swift in Sources */,
+				CD90326D36A71719D0FE5DDA /* FloatingPanel.swift in Sources */,
+				CB301A3107D3D7CAA43CD13C /* HUDView.swift in Sources */,
+				DE8A3A381602F7446549CB4D /* HotKeyMonitor.swift in Sources */,
+				209BF6675916380A4C8B5EC8 /* OllamaClient.swift in Sources */,
+				5DC94634724AA923C70F5843 /* Speaker.swift in Sources */,
+				EC9A08C6DDD12FBBA5DADFE9 /* TextInputWindow.swift in Sources */,
+				4AEAC24137E5EA62081C7B89 /* VoiceCapture.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DF2E965B0078075B504DC86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8C994A6B89D6428E8E062908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Clicky/Clicky.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/Clicky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heyclicky.Clicky;
+				PRODUCT_NAME = Clicky;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		D191C3E6D13BF69FF501CFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Clicky/Clicky.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/Clicky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heyclicky.Clicky;
+				PRODUCT_NAME = Clicky;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		D8E0AEE75B49BAE6B8DB39EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8684D96D69B2308224EAE7B2 /* Build configuration list for PBXProject "Clicky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E0AEE75B49BAE6B8DB39EE /* Debug */,
+				4DF2E965B0078075B504DC86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87ECBED9C9EF420CD06A72F8 /* Build configuration list for PBXNativeTarget "Clicky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C994A6B89D6428E8E062908 /* Debug */,
+				D191C3E6D13BF69FF501CFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53142D76FB5B985645CFB72 /* Project object */;
+}

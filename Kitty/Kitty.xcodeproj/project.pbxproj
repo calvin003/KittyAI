@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BDA315CEAA72B59067D851 /* KittyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782A63899D964BAB9DB1C29 /* KittyApp.swift */; };
+		039A118D942C6AF49A00C9E5 /* CatAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C34A41E5D559A55DE2C90 /* CatAssets.swift */; };
+		04A39FF70D281C91E180313F /* CursorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ADAAFCBF25AEF589836EAF /* CursorTracker.swift */; };
+		2215BEC9044B21327F54C4B9 /* TextInputWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0263080078611F2B9012B677 /* TextInputWindow.swift */; };
+		264AB3E8205D368053B28B61 /* mixkit-angry-cartoon-kitty-meow-94.wav in Resources */ = {isa = PBXBuildFile; fileRef = 573E8A3E9F0E224279D22687 /* mixkit-angry-cartoon-kitty-meow-94.wav */; };
+		29AA8C66204535BD17282573 /* VoiceCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05727734B34095CD01D2DA65 /* VoiceCapture.swift */; };
+		38EDC6406794245D7427067E /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BECEAC9778D67069310762 /* HUDView.swift */; };
+		3AB4E4F989A7F0922C403844 /* reply.png in Resources */ = {isa = PBXBuildFile; fileRef = D8478B98414FED96985B0104 /* reply.png */; };
+		3FB245B26CF67638D3E426B3 /* thinking&listeining.png in Resources */ = {isa = PBXBuildFile; fileRef = 25806CCF13E8C6C6297D7D2F /* thinking&listeining.png */; };
+		43FAF00106DD8A357E035E0A /* HotKeyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF76D0998291ED1F8C0B80A /* HotKeyMonitor.swift */; };
+		4644D9164C863D3422A87DA5 /* ConversationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EABBAF3C10E8092CDA5767 /* ConversationState.swift */; };
+		5467D2F828A8CA3695D993C9 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 992643E14805D01E8AA71CA3 /* Resources */; };
+		548DDB7AA1D38BFC4C6EAC05 /* OllamaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F70C372B0688497A32AD8 /* OllamaClient.swift */; };
+		8458DC29ADEE0EB8BE89DF56 /* mixkit-little-cat-pain-meow-87.wav in Resources */ = {isa = PBXBuildFile; fileRef = 72F948C0BA124A7D0DBE7A6E /* mixkit-little-cat-pain-meow-87.wav */; };
+		895E81D26EA5F41645E006C6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A1BC60F5E98846C4F0888E4A /* README.txt */; };
+		9038657FF7919E4CAC07284B /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B02800C4C2BADF2453588 /* Speaker.swift */; };
+		908CD69A9C6A08C656FC8F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874A410B067A467527D21CE /* AppDelegate.swift */; };
+		A1682CDFC15821FC9A54FC0F /* FloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D631A4060D3450099DDAE /* FloatingPanel.swift */; };
+		D358B6C69904281CB0F243CC /* mixkit-cartoon-kitty-begging-meow-92.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD8CB69AFEC4DF0F6DA83D51 /* mixkit-cartoon-kitty-begging-meow-92.wav */; };
+		F6E07891DAFF5AB978ED56B4 /* cat_idle.png in Resources */ = {isa = PBXBuildFile; fileRef = C23714E4750202E5290EA514 /* cat_idle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0263080078611F2B9012B677 /* TextInputWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputWindow.swift; sourceTree = "<group>"; };
+		05727734B34095CD01D2DA65 /* VoiceCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCapture.swift; sourceTree = "<group>"; };
+		25806CCF13E8C6C6297D7D2F /* thinking&listeining.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thinking&listeining.png"; sourceTree = "<group>"; };
+		2874A410B067A467527D21CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3756AF7C3ABD86ED191B2413 /* Kitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527F70C372B0688497A32AD8 /* OllamaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaClient.swift; sourceTree = "<group>"; };
+		573E8A3E9F0E224279D22687 /* mixkit-angry-cartoon-kitty-meow-94.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-angry-cartoon-kitty-meow-94.wav"; sourceTree = "<group>"; };
+		585D631A4060D3450099DDAE /* FloatingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanel.swift; sourceTree = "<group>"; };
+		72F948C0BA124A7D0DBE7A6E /* mixkit-little-cat-pain-meow-87.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-little-cat-pain-meow-87.wav"; sourceTree = "<group>"; };
+		86BECEAC9778D67069310762 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		992643E14805D01E8AA71CA3 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = Sources/Kitty/Resources; sourceTree = SOURCE_ROOT; };
+		9AF76D0998291ED1F8C0B80A /* HotKeyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyMonitor.swift; sourceTree = "<group>"; };
+		A1BC60F5E98846C4F0888E4A /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A53C34A41E5D559A55DE2C90 /* CatAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAssets.swift; sourceTree = "<group>"; };
+		B6ADAAFCBF25AEF589836EAF /* CursorTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorTracker.swift; sourceTree = "<group>"; };
+		BD8CB69AFEC4DF0F6DA83D51 /* mixkit-cartoon-kitty-begging-meow-92.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-kitty-begging-meow-92.wav"; sourceTree = "<group>"; };
+		C23714E4750202E5290EA514 /* cat_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_idle.png; sourceTree = "<group>"; };
+		D0EABBAF3C10E8092CDA5767 /* ConversationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationState.swift; sourceTree = "<group>"; };
+		D782A63899D964BAB9DB1C29 /* KittyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyApp.swift; sourceTree = "<group>"; };
+		D8478B98414FED96985B0104 /* reply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reply.png; sourceTree = "<group>"; };
+		F98B02800C4C2BADF2453588 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		25B745C96DC9B8077EFCE94B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3756AF7C3ABD86ED191B2413 /* Kitty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7111C70214C3CAA70DE8CE44 /* Kitty */ = {
+			isa = PBXGroup;
+			children = (
+				2874A410B067A467527D21CE /* AppDelegate.swift */,
+				A53C34A41E5D559A55DE2C90 /* CatAssets.swift */,
+				D0EABBAF3C10E8092CDA5767 /* ConversationState.swift */,
+				B6ADAAFCBF25AEF589836EAF /* CursorTracker.swift */,
+				585D631A4060D3450099DDAE /* FloatingPanel.swift */,
+				9AF76D0998291ED1F8C0B80A /* HotKeyMonitor.swift */,
+				86BECEAC9778D67069310762 /* HUDView.swift */,
+				D782A63899D964BAB9DB1C29 /* KittyApp.swift */,
+				527F70C372B0688497A32AD8 /* OllamaClient.swift */,
+				992643E14805D01E8AA71CA3 /* Resources */,
+				F98B02800C4C2BADF2453588 /* Speaker.swift */,
+				0263080078611F2B9012B677 /* TextInputWindow.swift */,
+				05727734B34095CD01D2DA65 /* VoiceCapture.swift */,
+				847401EB0C6A4D67D65CC8D7 /* Resources */,
+			);
+			path = Kitty;
+			sourceTree = "<group>";
+		};
+		847401EB0C6A4D67D65CC8D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C23714E4750202E5290EA514 /* cat_idle.png */,
+				573E8A3E9F0E224279D22687 /* mixkit-angry-cartoon-kitty-meow-94.wav */,
+				BD8CB69AFEC4DF0F6DA83D51 /* mixkit-cartoon-kitty-begging-meow-92.wav */,
+				72F948C0BA124A7D0DBE7A6E /* mixkit-little-cat-pain-meow-87.wav */,
+				A1BC60F5E98846C4F0888E4A /* README.txt */,
+				D8478B98414FED96985B0104 /* reply.png */,
+				25806CCF13E8C6C6297D7D2F /* thinking&listeining.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2657446F48BCC6FC00ADE87 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7111C70214C3CAA70DE8CE44 /* Kitty */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B15C98528ACE81F974F94005 = {
+			isa = PBXGroup;
+			children = (
+				A2657446F48BCC6FC00ADE87 /* Sources */,
+				25B745C96DC9B8077EFCE94B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD4C2FD1A8B634D03BF3F07 /* Kitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1C8EF1D64469A6BBF6E0C4 /* Build configuration list for PBXNativeTarget "Kitty" */;
+			buildPhases = (
+				0D9664ED0AE7679F00FBA488 /* Sources */,
+				5DD557B147F22F745B6B648A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kitty;
+			packageProductDependencies = (
+			);
+			productName = Kitty;
+			productReference = 3756AF7C3ABD86ED191B2413 /* Kitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F334802AE01A720E25B71342 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AFD4C2FD1A8B634D03BF3F07 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E5E683015B3C75C35ADA0829 /* Build configuration list for PBXProject "Kitty" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B15C98528ACE81F974F94005;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 25B745C96DC9B8077EFCE94B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD4C2FD1A8B634D03BF3F07 /* Kitty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DD557B147F22F745B6B648A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895E81D26EA5F41645E006C6 /* README.txt in Resources */,
+				5467D2F828A8CA3695D993C9 /* Resources in Resources */,
+				F6E07891DAFF5AB978ED56B4 /* cat_idle.png in Resources */,
+				264AB3E8205D368053B28B61 /* mixkit-angry-cartoon-kitty-meow-94.wav in Resources */,
+				D358B6C69904281CB0F243CC /* mixkit-cartoon-kitty-begging-meow-92.wav in Resources */,
+				8458DC29ADEE0EB8BE89DF56 /* mixkit-little-cat-pain-meow-87.wav in Resources */,
+				3AB4E4F989A7F0922C403844 /* reply.png in Resources */,
+				3FB245B26CF67638D3E426B3 /* thinking&listeining.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9664ED0AE7679F00FBA488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908CD69A9C6A08C656FC8F27 /* AppDelegate.swift in Sources */,
+				039A118D942C6AF49A00C9E5 /* CatAssets.swift in Sources */,
+				4644D9164C863D3422A87DA5 /* ConversationState.swift in Sources */,
+				04A39FF70D281C91E180313F /* CursorTracker.swift in Sources */,
+				A1682CDFC15821FC9A54FC0F /* FloatingPanel.swift in Sources */,
+				38EDC6406794245D7427067E /* HUDView.swift in Sources */,
+				43FAF00106DD8A357E035E0A /* HotKeyMonitor.swift in Sources */,
+				01BDA315CEAA72B59067D851 /* KittyApp.swift in Sources */,
+				548DDB7AA1D38BFC4C6EAC05 /* OllamaClient.swift in Sources */,
+				9038657FF7919E4CAC07284B /* Speaker.swift in Sources */,
+				2215BEC9044B21327F54C4B9 /* TextInputWindow.swift in Sources */,
+				29AA8C66204535BD17282573 /* VoiceCapture.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3883365A2F4051005451413C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Kitty/Kitty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/Kitty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykitty.Kitty;
+				PRODUCT_NAME = Kitty;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		4DD0BF7F095089A3732504B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Kitty/Kitty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/Kitty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykitty.Kitty;
+				PRODUCT_NAME = Kitty;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		BD74DFE6F5B9EF07EB6368F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F680A6FB7F2DBB82CB5D0AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1C8EF1D64469A6BBF6E0C4 /* Build configuration list for PBXNativeTarget "Kitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3883365A2F4051005451413C /* Debug */,
+				4DD0BF7F095089A3732504B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5E683015B3C75C35ADA0829 /* Build configuration list for PBXProject "Kitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD74DFE6F5B9EF07EB6368F8 /* Debug */,
+				F680A6FB7F2DBB82CB5D0AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F334802AE01A720E25B71342 /* Project object */;
+}

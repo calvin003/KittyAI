@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>clicky — an ai buddy that lives on your mac</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      background: #ffffff;
+      color: #171717;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      min-height: 100vh;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 120px 24px 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .eyebrow {
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #aaaaaa;
+      margin: 0 0 20px;
+    }
+
+    h1.hero {
+      font-size: 64px;
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -2.2px;
+      color: #000;
+      margin: 0 0 28px;
+      max-width: 900px;
+    }
+
+    p.lede {
+      font-size: 16px;
+      line-height: 24px;
+      color: #171717;
+      max-width: 640px;
+      margin: 0 0 36px;
+    }
+
+    .cta {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .email {
+      width: 240px;
+      padding: 14px 20px;
+      font-family: inherit;
+      font-size: 15px;
+      color: #000;
+      background: #fafafa;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      outline: none;
+      transition: border-color .15s ease;
+    }
+    .email::placeholder { color: #aaaaaa; }
+    .email:focus { border-color: #171717; }
+
+    .btn {
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 700;
+      color: #ffffff;
+      background: #000;
+      border: 0;
+      border-radius: 6px;
+      padding: 16px 28px;
+      cursor: pointer;
+      transition: background .15s ease, transform .05s ease;
+    }
+    .btn:hover { background: #1a1a1a; }
+    .btn:active { transform: translateY(1px); }
+
+    .small {
+      margin: 16px 0 0;
+      font-size: 14px;
+      color: #888;
+    }
+    .small a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+    .examples {
+      width: 100%;
+      max-width: 700px;
+      margin: 96px auto 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .card {
+      background: #fafafa;
+      border: 1px solid #f0f0f0;
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: #888;
+      text-align: left;
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+    }
+
+    footer {
+      margin-top: 120px;
+      text-align: center;
+      color: #888;
+      font-size: 13px;
+    }
+    footer .heart { color: #171717; }
+    footer a {
+      display: inline-block;
+      margin-top: 12px;
+      color: #888;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    @media (max-width: 720px) {
+      .page { padding: 72px 20px 56px; }
+      h1.hero { font-size: 44px; letter-spacing: -1.4px; }
+      .examples { grid-template-columns: 1fr; margin-top: 64px; }
+      .email { width: 100%; }
+      .cta { flex-direction: column; align-items: stretch; }
+      .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <p class="eyebrow">meet clicky</p>
+
+    <h1 class="hero">an ai buddy that lives<br />on your mac.</h1>
+
+    <p class="lede">
+      a tiny companion that hangs out beside your cursor, watches what's on screen,
+      and listens whenever you need a hand. ask out loud and it talks you through what you're doing — or hand it off to an agent and let it work in the background.
+    </p>
+
+    <form class="cta" onsubmit="event.preventDefault();">
+      <input class="email" type="email" placeholder="enter your email" aria-label="email" />
+      <button class="btn" type="submit">download</button>
+    </form>
+
+    <p class="small">on windows? <a href="#">join the waitlist</a></p>
+
+    <section class="examples" aria-label="example prompts">
+      <div class="card">"walk me through grading this clip in davinci"</div>
+      <div class="card">"clicky agent, turn this figma into a working webpage"</div>
+      <div class="card">"what does this after effects panel actually do?"</div>
+      <div class="card">"clicky agent, find me cameras like this under $1k"</div>
+      <div class="card">"help me sketch a logo for this idea in figma"</div>
+      <div class="card">"clicky agent, summarize this pdf and email it to my team"</div>
+    </section>
+
+    <footer>
+      <div>made with <span class="heart">&lt;3</span></div>
+      <a href="#">privacy</a>
+    </footer>
+  </main>
+</body>
+</html>

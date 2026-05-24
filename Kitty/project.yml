@@ -1,0 +1,42 @@
+name: Kitty
+options:
+  bundleIdPrefix: com.heykitty
+  deploymentTarget:
+    macOS: "13.0"
+  createIntermediateGroups: true
+
+targets:
+  Kitty:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/Kitty
+        excludes:
+          - Info.plist
+          - Kitty.entitlements
+      - path: Sources/Kitty/Resources
+        type: folder
+        buildPhase: resources
+    info:
+      path: Sources/Kitty/Info.plist
+      properties:
+        CFBundleName: Kitty
+        CFBundleDisplayName: Kitty
+        CFBundleIdentifier: com.heykitty.Kitty
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        LSMinimumSystemVersion: "13.0"
+        LSUIElement: true
+        NSHumanReadableCopyright: ""
+        NSMicrophoneUsageDescription: "Kitty needs the microphone so it can hear what you say while you hold Ctrl+Option."
+        NSSpeechRecognitionUsageDescription: "Kitty transcribes your voice so it can answer you."
+        NSAppleEventsUsageDescription: "Kitty uses system events for the global push-to-talk hotkey."
+    settings:
+      base:
+        PRODUCT_NAME: Kitty
+        PRODUCT_BUNDLE_IDENTIFIER: com.heykitty.Kitty
+        MACOSX_DEPLOYMENT_TARGET: "13.0"
+        SWIFT_VERSION: "5.9"
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ENTITLEMENTS: Sources/Kitty/Kitty.entitlements
