@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact — Desktop Cat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root { --ink:#3d1f33; }
+  * { box-sizing:border-box; }
+  html, body { margin:0; min-height:100%; }
+  body {
+    font-family:'Fredoka', -apple-system, system-ui, sans-serif;
+    color:var(--ink); min-height:100vh;
+    background:linear-gradient(160deg,#fff0f7 0%,#ffd4ea 48%,#ffdff0 100%);
+    background-attachment:fixed;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    padding:48px 20px;
+  }
+  .card {
+    background:rgba(255,255,255,.78);
+    backdrop-filter:blur(16px) saturate(150%);
+    -webkit-backdrop-filter:blur(16px) saturate(150%);
+    border:1px solid rgba(255,255,255,.8);
+    border-radius:30px; padding:48px 44px; max-width:520px; width:100%;
+    box-shadow:0 30px 80px -22px rgba(220,60,140,.42);
+  }
+  h1 { font-size:40px; font-weight:700; margin:0 0 8px; letter-spacing:-.5px; }
+  p.sub { font-size:16px; color:#7a4763; margin:0 0 26px; font-weight:400; }
+  label { display:block; font-size:13px; font-weight:600; color:#b07a96; margin:0 0 6px; }
+  input, textarea {
+    width:100%; font-family:inherit; font-size:15px; color:#3d1f33;
+    background:rgba(255,255,255,.72); border:1px solid #f3c1dc;
+    border-radius:12px; padding:12px 14px; outline:none; margin:0 0 16px;
+  }
+  input:focus, textarea:focus { border-color:#f0408f; }
+  textarea { min-height:120px; resize:vertical; }
+  .btn {
+    font-family:inherit; font-size:16px; font-weight:600; color:#fff;
+    background:linear-gradient(180deg,#ff7ab8,#f0408f);
+    border:0; border-radius:14px; padding:14px 28px; cursor:pointer;
+    box-shadow:0 12px 26px -6px rgba(240,64,143,.6);
+    transition:transform .08s ease;
+  }
+  .btn:hover { transform:translateY(-2px); }
+  .btn:active { transform:translateY(0); }
+  .msg { font-size:14px; color:#e0408f; margin:16px 0 0; min-height:18px; font-weight:500; }
+  .back { display:inline-block; margin:0 0 22px; color:#c98fb0; text-decoration:underline;
+          text-underline-offset:3px; font-size:14px; }
+  .back:hover { color:#e0408f; }
+  .links { margin:26px 0 0; border-top:1px solid #f3c1dc; padding:20px 0 0; }
+  .links-label { display:block; font-size:13px; font-weight:600; color:#b07a96; margin:0 0 12px; }
+  .links a { display:inline-block; margin:0 16px 8px 0; color:#e0408f; text-decoration:none; font-weight:500; font-size:15px; }
+  .links a:hover { text-decoration:underline; text-underline-offset:3px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <a class="back" href="index.html">← back to desktop cat</a>
+    <h1>say hi 🐾</h1>
+    <p class="sub">questions, bugs, or just want to tell me about your cat? drop a note.</p>
+
+    <form id="form" onsubmit="return false;">
+      <label for="name">name</label>
+      <input id="name" type="text" placeholder="your name" />
+      <label for="email">email</label>
+      <input id="email" type="email" placeholder="you@example.com" />
+      <label for="message">message</label>
+      <textarea id="message" placeholder="say something nice…"></textarea>
+      <button id="send" class="btn" type="submit">Send</button>
+      <p id="msg" class="msg"></p>
+    </form>
+
+    <div class="links">
+      <span class="links-label">or find me here</span>
+      <a href="https://x.com/ConradLim6" target="_blank" rel="noopener">X · @ConradLim6</a>
+      <a href="https://instagram.com/calv003" target="_blank" rel="noopener">Instagram · @calv003</a>
+      <a href="mailto:calvins.brew@gmail.com">calvins.brew@gmail.com</a>
+    </div>
+  </div>
+
+  <script>
+    const SB_URL = "https://jshbtkejvfgntscbvcqy.supabase.co";
+    const SB_KEY = "sb_publishable_GoHvQNdmxDb1NCY8zUwNEA_MZcM4y5S";
+    document.getElementById('form').addEventListener('submit', async () => {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const msg = document.getElementById('msg');
+      if (!message) { msg.textContent = 'write a message first'; return; }
+      msg.textContent = 'sending…';
+      try {
+        const r = await fetch(SB_URL + '/rest/v1/contact_messages', {
+          method: 'POST',
+          headers: { 'content-type':'application/json', apikey: SB_KEY,
+                     Authorization: 'Bearer ' + SB_KEY, Prefer: 'return=minimal' },
+          body: JSON.stringify({ name, email, message })
+        });
+        if (r.ok) {
+          msg.textContent = "got it — thanks! i'll get back to you 🐾";
+          document.getElementById('message').value = '';
+        } else {
+          msg.textContent = "hmm, couldn't send (" + r.status + ")";
+        }
+      } catch (e) { msg.textContent = 'network error — try again'; }
+    });
+  </script>
+</body>
+</html>
